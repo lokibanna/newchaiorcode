@@ -5,7 +5,7 @@ console.log(name + repocount + "value") //loki50value
 
 console.log(`hello my name is ${name} and my repo count is ${repocount}`)
 
-const gameName = new String(`hitesh`)
+const gameName = new String(`hitesh`) //If you use the new String(), it creates a String object, and you can invoke methods like .toUpperCase() or .slice() directly on that object.
 console.log(gameName[0]);
 console.log(gameName.__proto__) // all the functions are stores here.
 
@@ -62,7 +62,7 @@ console.log(hundreds.toLocaleString('en-IN')) // 10,00,000
 // $$$$$$ MATHEMATICS $$$$$$
 
 console.log(Math);
-console.log(Math.abs(-4)) // gives neg to positive vLUE
+console.log(Math.abs(-4)) // gives negative to positive vaLUE
 console.log(Math.round(4,6))
 // we can use ceil and floor also 
 // min and max 
